@@ -1,0 +1,298 @@
+@font-face
+ {
+    font-family: '2-Questa_Sans_Regular';
+    src: url('2-Questa_Sans_Regular-webfont.woff2') format('woff2'),
+         url('2-Questa_Sans_Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Police télechargée depuis un autre site web */
+
+nav ul li.btn
+{
+  list-style-type: none;
+  /* Effacer les petits points ou numéros*/
+  display: inline-block;
+}
+
+nav ul li.btn a
+{
+  color:  white;
+  background: black;
+  text-decoration: none;
+  /* Effacer les décorations */
+  padding: 5px 70px;
+  font-size: 20px;
+	font-family: '2-Questa_Sans_Regular';
+}
+
+nav ul li.btn:hover a
+{
+  color:grey;
+  padding-left: 100px;
+  transition: 0.3s all;
+}
+/* Quand on pose la souris sur .btn alors a  devient gris, sa taille à gauche augemente et tout ça en 0.3 secondes*/
+
+nav
+{
+  position: fixed;
+  display: block;
+  background-color: black;
+  Width: 1886px;
+  Height: 50px;
+  top: 0px;
+  text-align: center;
+  z-index: 10;
+  opacity: 0.90;
+}
+/* style de la barre de navigation */
+
+.jj h1
+{
+  position: absolute;
+  top: 53px;
+  left:385px;
+  font-size: 38px;
+  padding: 15px 70px;
+  color: black;
+  background-color: #DEE1E6;
+  font-family: '2-Questa_Sans_Regular';
+  width:1369px;
+  padding-bottom:168px;
+}
+/* style h1 */
+
+.jj h1:hover .clignote
+{
+  color:red;
+  animation: clignote 0.7s linear infinite;
+}
+@keyframes clignote {
+  50% { opacity: 0; }
+}
+/* Quand on pose la souris sur h1 alors la barre nomée: .clignote; va clignoter en rouge jusqu'à l'infinit toutes les 0.7 secondes */
+
+body
+{
+  background-color: white ;
+}
+/* changement de la couleur du body en blanc */
+
+#bandeau_superieur{
+	background-color:#bde0fe;
+	height:70px;
+	width:1886px;
+  opacity: 0.2
+}
+/* Style du bandeau_superieur: en bleu + définition de sa taille */
+
+.senku
+{
+	height:400px;
+	width:auto;
+}
+/* Style de senku: définition de sa taille */
+
+h2
+{
+text-align:center;
+padding:190px;
+font-size: 24px;
+padding-top: 130px;
+font-family: '2-Questa_Sans_Regular';
+}
+
+.jean
+{
+  font-size: 35px;
+}
+
+tr td
+{
+  height:700px;
+  width:940px;
+}
+
+tr td.totot
+{
+background-color: #bde0fe;
+}
+/* changement de couleur pour 1 carreux sur 2 du tableau: en bleu*/
+
+tr td.totot2
+{
+background-color:  #faf3dd;
+}
+/* changement de couleur pour 1 carreux sur 2 du tableau: en jaune*/
+
+.bb1
+{
+  height:520px;
+  width:auto;
+  position: relative;
+  bottom: -50px;
+  left: -130px;
+}
+/* changement d'emplacement et de taille de .bb1*/
+
+.dropbox
+{
+  position: relative;
+  width: 240px;
+  height: auto;
+  bottom: 340px;
+  left: 620px;
+}
+/* changement d'emplacement et de taille de .dropbox*/
+
+.zero2{
+
+  position: relative;
+  bottom: 10px;
+  left: 250px;
+  height:530px;
+  width:auto;
+}
+/* changement d'emplacement et de taille de .zero2*/
+
+.google
+{
+  height:110px;
+  width:auto;
+  position: relative;
+  bottom: 50px;
+  right: 625px;
+}
+/* changement d'emplacement et de taille de .google*/
+
+.world
+{
+  height:150px;
+  width:auto;
+  position: relative;
+  bottom: 250px;
+  right: 490px;
+}
+/* changement d'emplacement et de taille de .world*/
+
+.bibi
+{
+  position: relative;
+  bottom: -80px;
+  left: -50px;
+  height:580px;
+  width:auto;
+}
+/* changement d'emplacement et de taille de .bibi*/
+
+.pronote
+{
+  height:150px;
+  width:auto;
+  position: relative;
+  bottom: 290px;
+  right: -700px;
+}
+/* changement d'emplacement et de taille de .pronote*/
+
+.jujutsu
+{
+position: relative;
+bottom: -100px;
+left: 130px;
+height:460px;
+width:auto;
+}
+/* changement d'emplacement et de taille de .jujutsu*/
+
+.maths
+{
+  height:100px;
+  width:auto;
+  position: relative;
+  bottom: 450px;
+  left: 20px;
+}
+/* changement d'emplacement et de taille de .maths*/
+
+.alice
+{
+  height:600px;
+  width:auto;
+  position: relative;
+  bottom: 10px;
+  left: 105px;
+}
+/* changement d'emplacement et de taille de .alice*/
+
+.office
+{
+   height:180px;
+    width:auto;
+    position: relative;
+    top: -100px;
+    left: 200px;
+}
+/* changement d'emplacement et de taille de .office*/
+
+.kirua
+{
+  height:600px;
+  width:auto;
+  position: relative;
+  top: 0px;
+  right: -330px;
+}
+/* changement d'emplacement et de taille de .kirua*/
+
+.wikipedia
+{
+  height:auto;
+  width:180px;
+  position: relative;
+  top: -100px;
+  left: -430px;
+}
+/* changement d'emplacement et de taille de .wikipedia*/
+
+p.bandeau_inférieur_texte
+{
+  padding: 40px;
+  text-align: center;
+  font-family: arial;
+}
+
+div.bandeau_inférieur
+{
+  background-color: #DEE1E6;
+  height: 190px;
+  width: 1886px;
+  padding-top: 50px;
+}
+
+html.jj1
+{
+  background-color:  #312728;
+}
+/* changement de couleur de la deuxième page html contact nomée .jj1*/
+
+.jj1 h1
+{
+  background-color:  #312728;
+}
+/* meme couleur de fond  pour le h1 de la 2ème page que pour le fond de la deuxième page html*/
+
+.insta
+{
+  height: auto;
+  width: 500px;
+}
+/* changement d'emplacement et de taille de .insta*/
+
+.email
+{
+  height: auto;
+  width: 500px;
+}
+/* changement d'emplacement et de taille de .email*/
